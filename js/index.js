@@ -161,7 +161,7 @@ function buildInfosign() {
       $('.infoSign').html( "ⓘ Say What!?" );
       // change visibility boolean
       infoBarVisible = false;
-      // also focus back on the carousel so arrows work
+      // also focus back on the carousel so arrows workx
       $(document).find('.slick-list').attr('tabindex', 0).focus();
     } else {
       infoWrapper.css( { 'top': 'auto', 'bottom': - infoBarHeight + 'px' } );
@@ -181,7 +181,7 @@ function buildInfosign() {
 
 function moveInfoSign(activeMenuItem) {
   // find active menu position
-  var activeMenuItemPosition = activeMenuItem.position();
+  var activeMenuItemPosition = $('.navActive').position();
   var menuSliderPosition = $('.slick-track').position();
   var rightArrowPosition = $('.nav-next').position();
   if($(window).width() > 600){
@@ -310,14 +310,14 @@ function updateInfoBar(projectID) {
         //adjust the height and position of the container to fit the text
         infoBarHeight = infoContent.outerHeight();
         infoWrapper.css("height", infoBarHeight);
-        infoWrapper.css("top", (infoBarHeight * -1) );
+        // infoWrapper.css("top", (infoBarHeight * -1) );
         //adjust the translation values
-        backgroundImage.css({transform:'translate(0,' + infoBarHeight + 'px) scale(1.05)'});
-        allSlides.css("transform","translate(0," + infoBarHeight + "px)");
-        infoWrapper.css("transform","translate(0," + infoBarHeight + "px)");
+        backgroundImage.css({transform:'translate(0,-' + infoBarHeight + 'px) scale(1.05)'});
+        allSlides.css("transform","translate(0,-" + infoBarHeight + "px)");
+        infoWrapper.css("transform","translate(0,-" + infoBarHeight + "px)");
         // adjust the regular positioning
         infoWrapper.css("height", infoBarHeight);
-        infoWrapper.css("top", (infoBarHeight * -1) );
+        //infoWrapper.css("top", (infoBarHeight * -1) );
       }, 500);
       // wait a little bit and then fade everything back in
       setTimeout(function(){

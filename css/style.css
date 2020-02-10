@@ -464,24 +464,24 @@ nav > div:last-child {
   position: fixed;
   width: 100%;
   /* padding: 6.6vh 1vh 1.95vh 1vh; */
-  padding: 6.175em 1vh 1.25em 1vh;
+  padding: 2.175em 1vh 6.25em 1vh;
   /* padding: 0.9 + multiples of 1.9*/
   transition: all 0.5s ease;
   max-height: 100vh;
   overflow: auto;
-  bottom: 0;
+  top: 0;
 }
 
 .infoContentMobileBig {
-  padding: 6.175em 1vh 6.175em 1vh;
+  padding: 2.175em 1vh 6.175em 1vh;
 }
 
 .infoContentMobileSmall {
-  padding: 6.175em 1vh 1.25em 1vh;
+  padding: 2.175em 1vh 6.25em 1vh;
 }
 
 .infoGradient {
-  top:0;
+  bottom:0;
   position: fixed;
   background-image : linear-gradient(to top,
                   rgba(255,255,255, 0),
