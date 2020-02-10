@@ -164,9 +164,11 @@ function buildInfosign() {
       // also focus back on the carousel so arrows work
       $(document).find('.slick-list').attr('tabindex', 0).focus();
     } else {
-      backgroundImage.css({transform:'translate(0,' + infoBarHeight + 'px) scale(1.05)'});
-      allSlides.css("transform","translate(0," + infoBarHeight + "px)");
-      infoWrapper.css("transform","translate(0," + infoBarHeight + "px)");
+      infoWrapper.css( { 'top': 'auto', 'bottom': - infoBarHeight + 'px' } );
+
+      backgroundImage.css({transform:'translate(0,-' + infoBarHeight + 'px) scale(1.05)'});
+      allSlides.css("transform","translate(0,-" + infoBarHeight + "px)");
+      infoWrapper.css("transform","translate(0,-" + infoBarHeight + "px)");
       // change content of infosign
       $('.infoSign').html( "ⓘ Got it!" );
       // change visibility boolean
