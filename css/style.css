@@ -4,43 +4,43 @@
 
   @font-face {
       font-family: "SFText";
-      src: url("../type/SFProText-Regular.otf");
+      src: url("../type/AntiqueOliveStd-Roman.otf");
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/SFProText-Italic.otf");
+      src: url("../type/AntiqueOliveStd-Italic.otf");
       font-style: italic;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/SFProText-Light.otf");
+      src: url("../type/AntiqueOliveStdt-Light.otf");
       font-weight: 300;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/SFProText-LightItalic.otf");
+      src: url("../type/AntiqueOliveStd-Compact.otf");
       font-weight: 300;
       font-style: italic;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/SFProText-Semibold.otf");
+      src: url("../type/AntiqueOliveStd-Bold.otf");
       font-weight: 600;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/SFProText-SemiboldItalic.otf");
+      src: url("../type/AntiqueOliveStd-BoldCond.otf");
       font-weight: 600;
       font-style: italic;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/SFProText-Heavy.otf");
+      src: url("../type/AntiqueOliveStd-Nord.otf");
       font-weight: 900;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/SFProText-HeavyItalic.otf");
+      src: url("../type/AntiqueOliveStdt-NordItalic.otf");
       font-weight: 900;
       font-style: italic;
   }
