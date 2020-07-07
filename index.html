@@ -109,6 +109,12 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src='jquery-scrollable.js'></script>
+<script src='debiki-utterscroll.js'></script>
+
+if (!Modernizr.touch)  // if not a smartphone
+  debiki.Utterscroll.enable({
+      scrollstoppers: '.CodeMirror, .ui-resizable-handle' });
 </body>
 
 </html>

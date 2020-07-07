@@ -13,3 +13,24 @@ $('.menu-button').click(function(){
      subnav.css('max-height', subnav.prop('scrollHeight') + "px");
    }
  });
+
+ $('document').ready(function() {
+
+     var origDocHeight = document.body.offsetHeight;
+
+     var clone=$(".content").contents().clone();
+     clone.appendTo(".content");
+     clone.prependTo(".content");
+
+     $(document).scroll(function(){
+
+         var scrollWindowPos = $(document).scrollTop();
+
+         if(scrollWindowPos >= origDocHeight ) {
+             $(document).scrollTop(1);
+         }
+         if(scrollWindowPos <= 0 ) {
+              $(document).scrollTop(origDocHeight);
+          }
+     });
+ });
