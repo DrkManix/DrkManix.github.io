@@ -141,7 +141,7 @@ li{
 .project-container{
   width: 98vw;
   padding-top: 2em;
-  background-color: grey;
+
 }
 
 .project-info{
@@ -160,6 +160,7 @@ li{
   align-items: center;
   height: 70vh;
   overflow-x: scroll;
+  background-color: grey;
 }
 
 .project-image{
