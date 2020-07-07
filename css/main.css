@@ -143,6 +143,16 @@ li{
   padding-top: 2em;
 }
 
+.project-info{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  height: 67vh;
+  margin-inline-end: 20rem;
+  margin-inline-start: 20rem;
+  text-align: left;
+}
+
 .project-row{
   display: flex;
   flex-direction:row;
