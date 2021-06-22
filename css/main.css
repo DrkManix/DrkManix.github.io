@@ -132,7 +132,7 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #f89d13;
+  background: #f81313;
 }
 
 /* Handle on hover */
@@ -141,7 +141,7 @@ body{
 }
 button{
   border:none;
-  background-color: #f89d13;
+  background-color: #f81313;
   margin-right: 1rem;
   color: #1b120f;
 }
@@ -154,7 +154,7 @@ ul {
 a:link, a:visited{
   text-decoration: none;
   color: #1b120f;
-  background-color: #f89d13;
+  background-color: #f81313;
   font-family: italic;
 }
 
@@ -212,7 +212,7 @@ list-style-type: none;
   text-align: center;
   margin-inline-end: 1rem;
   font-family: italic;
-  color: #f89d13;
+  color: #f81313;
 }
 
 .info-button{
